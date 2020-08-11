@@ -1,0 +1,30 @@
+.firstlayer {
+    background-color: #1034a6;
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.secondlayer {
+    background-color: whitesmoke;
+    clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%);
+    height: auto;
+    width: auto;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.ml {
+    margin-left: 240px;
+}
+
+.ml1 {
+    margin-left: 150px;
+}
+
+#name {
+    font-size: 20px;
+}
